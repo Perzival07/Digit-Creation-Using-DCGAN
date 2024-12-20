@@ -6,18 +6,18 @@ This project demonstrates the implementation of a Generative Adversarial Network
 Installation
 
 1.Clone the repository:
-```
+```python
 git clone https://github.com/your-username/GAN-MNIST.git
 cd GAN-MNIST
 ```
 
 2.Install the required dependencies:
-```
+```python
 pip install -r requirements.txt
 ```
 
 3.Ensure TensorFlow is installed with GPU support (if using GPUs):
-```
+```python
 pip install tensorflow-gpu
 ```
 
@@ -26,12 +26,12 @@ pip install tensorflow-gpu
 Usage
 
 1.Preprocess the dataset by running the preprocessing script (if applicable):
-```
+```python
 python preprocess.py
 ```
 
 2.Start the GAN training process:
-```
+```python
 python train.py --batch_size 128 --epochs 50
 ```
 Optional flags include:
@@ -41,7 +41,7 @@ Optional flags include:
 3.View the generated images in the MNIST/figs/ directory.
 
 4.To restore from a checkpoint and continue training:
-```
+```python
 python train.py --restore_checkpoint path/to/checkpoint
 ```
 
