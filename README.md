@@ -5,35 +5,47 @@ This project demonstrates the implementation of a Generative Adversarial Network
 
 Installation
 
-Clone the repository:
-'''git clone https://github.com/your-username/GAN-MNIST.git
-cd GAN-MNIST'''
+1.Clone the repository:
+```
+git clone https://github.com/your-username/GAN-MNIST.git
+cd GAN-MNIST
+```
 
-Install the required dependencies:
-'''pip install -r requirements.txt'''
+2.Install the required dependencies:
+```
+pip install -r requirements.txt
+```
 
-Ensure TensorFlow is installed with GPU support (if using GPUs):
-'''pip install tensorflow-gpu'''
+3.Ensure TensorFlow is installed with GPU support (if using GPUs):
+```
+pip install tensorflow-gpu
+```
 
 
 
 Usage
 
-Preprocess the dataset by running the preprocessing script (if applicable):
-'''python preprocess.py'''
+1.Preprocess the dataset by running the preprocessing script (if applicable):
+```
+python preprocess.py
+```
 
-Start the GAN training process:
-'''python train.py --batch_size 128 --epochs 50'''
+2.Start the GAN training process:
+```
+python train.py --batch_size 128 --epochs 50
+```
 Optional flags include:
 --batch_size: Define batch size (default: 128).
 --epochs: Set the number of training epochs (default: 50).
 
-View the generated images in the MNIST/figs/ directory.
+3.View the generated images in the MNIST/figs/ directory.
 
-To restore from a checkpoint and continue training:
-'''python train.py --restore_checkpoint path/to/checkpoint'''
+4.To restore from a checkpoint and continue training:
+```
+python train.py --restore_checkpoint path/to/checkpoint
+```
 
-Evaluate the trained model with the discriminator or generator independently (if supported).
+5.Evaluate the trained model with the discriminator or generator independently (if supported).
 
 
 
